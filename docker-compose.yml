@@ -1,0 +1,15 @@
+services:
+  postgres:
+    container_name: truck
+    image: postgres:12.0-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: truck
+    ports:
+      - "5432:5432"
+    networks:
+      - stack
+
+networks:
+  stack:
