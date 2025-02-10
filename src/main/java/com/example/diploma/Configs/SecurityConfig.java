@@ -21,11 +21,6 @@ public class SecurityConfig{
     private final UserDetailsService detailsService;
     private final JwtProperties jwt;
 
-<<<<<<< HEAD
-//    @Beans
-=======
-//    @Bean
->>>>>>> ea4dd34 (first committed back)
 //    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
 //        http.
 //                csrf().disable()
