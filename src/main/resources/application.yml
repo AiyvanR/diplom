@@ -28,4 +28,5 @@ spring:
 jwt:
   secret: hgtdfhfkjoytgjkygrthtrhbncvijrt
   expiresAt: 1800000
+  refreshExpiresAt: 3600000
 
